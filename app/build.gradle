@@ -43,6 +43,20 @@ android {
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         resValue "string", "encryption_status", (shouldEncrypt() ? "onCompileVerify" : "false")
     }
+    def gitHash = { ->
+        def stdout = new ByteArrayOutputStream()
+        exec {
+            commandLine 'git', 'rev-parse', '--short', 'HEAD'
+            standardOutput = stdout
+        }
+        return stdout.toString().trim()
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all{ output ->
+            outputFileName = "Aether_${variant.versionName}_${gitHash()}.apk"
+        }
+    }
+
     buildTypes {
         debug {
             minifyEnabled false
