@@ -4,7 +4,7 @@
     <string name="ThemeAuthor">ungeeked</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
-    <string name="ThemeAuthorEmail"></string>
+    <string name="ThemeAuthorEmail">marvelousprashant@gmail.com</string>
     <!-- Theme wallpaper source (must be raw) -->
     <!-- <string name="ThemeWallpaperSource">http://pastebin.com/raw/TG4mFdXz</string> -->
     <!-- Do your theme support substratum legacy? -->
@@ -20,7 +20,7 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Add option to disable network indicators</item>
-        <item>Make clock position compatible with older devices</item>
+        <item>Add option to disable hidden sim</item>
+        <item>Make QS grid fully customizable</item>
     </string-array>
 </resources>
