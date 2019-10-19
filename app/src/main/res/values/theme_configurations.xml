@@ -20,6 +20,8 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Fixed an issue with QS grid in landscape view </item>
+        <item>Add clock layout options for OOS 10 </item>
+        <item>Update hide QS labels option to work with OOs 10 </item>
+        <item>Remove option for QS row configuration </item>
     </string-array>
 </resources>
