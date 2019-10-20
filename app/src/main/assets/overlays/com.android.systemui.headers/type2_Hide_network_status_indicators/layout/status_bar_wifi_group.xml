@@ -7,11 +7,11 @@
             <ImageView android:id="@*com.android.systemui:id/wifi_out" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/ic_activity_up" android:paddingEnd="2.0dip" />
         </FrameLayout>
         <FrameLayout android:gravity="center_vertical" android:id="@*com.android.systemui:id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?lightIconTheme" android:id="@*com.android.systemui:id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.systemui.statusbar.AlphaOptimizedImageView android:id="@*com.android.systemui:id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             <ImageView android:layout_gravity="start|bottom|center" android:visibility="gone" android:id="@*com.android.systemui:id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </FrameLayout>
-        <View android:id="@*com.android.systemui:id/wifi_signal_spacer" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/status_bar_wifi_signal_spacer_width" android:layout_height="4.0dip" />
+        <View android:id="@*com.android.systemui:id/wifi_signal_spacer" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/op_status_bar_wifi_signal_spacer_width" android:layout_height="4.0dip" />
         <ViewStub android:id="@*com.android.systemui:id/connected_device_signals_stub" android:layout="@*com.android.systemui:layout/connected_device_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <View android:id="@*com.android.systemui:id/wifi_airplane_spacer" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/status_bar_airplane_spacer_width" android:layout_height="4.0dip" />
+        <View android:id="@*com.android.systemui:id/wifi_airplane_spacer" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/op_status_bar_airplane_spacer_width" android:layout_height="4.0dip" />
     </com.android.keyguard.AlphaOptimizedLinearLayout>
 </com.android.systemui.statusbar.StatusBarWifiView>

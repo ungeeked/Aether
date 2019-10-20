@@ -2,7 +2,7 @@
 <com.android.systemui.statusbar.StatusBarMobileView android:gravity="center_vertical" android:id="@*com.android.systemui:id/mobile_combo" android:layout_width="wrap_content" android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
     <com.android.keyguard.AlphaOptimizedLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@*com.android.systemui:id/mobile_group" android:layout_width="wrap_content" android:layout_height="fill_parent">
-        <ImageView android:id="@*com.android.systemui:id/data_inout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+        <ImageView android:id="@*com.android.systemui:id/mobile_volte" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
         <FrameLayout android:layout_gravity="center_vertical" android:id="@*com.android.systemui:id/inout_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="17.0dip">
             <ImageView android:id="@*com.android.systemui:id/mobile_in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/ic_activity_down" android:paddingEnd="2.0dip" />
             <ImageView android:id="@*com.android.systemui:id/mobile_out" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/ic_activity_up" android:paddingEnd="2.0dip" />
