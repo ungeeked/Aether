@@ -20,8 +20,9 @@
     <string name="ThemeHeroOverride">auto</string>
     <!-- Put your theme changelog here, each item will be a new bullet point in the sheet -->
     <string-array name="ThemeChangelog">
-        <item>Add clock layout options for OOS 10 </item>
-        <item>Update hide QS labels option to work with OOs 10 </item>
-        <item>Remove option for QS row configuration </item>
+        <item>Rework clock layout options for OOS 10 </item>
+        <item>Update Hide QS labels option to work with OOS 10 </item>
+        <item>Update Hide disabled sim option for OOS 10  </item>
+        <item>Update Hide network status indicators option for OOS 10  </item>
     </string-array>
 </resources>
