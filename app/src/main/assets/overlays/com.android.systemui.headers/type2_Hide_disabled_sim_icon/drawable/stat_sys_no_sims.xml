@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="0.77dip" android:insetTop="0.30000007dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector
+    android:name="vector"
+    android:width="1dp"
+    android:height="1dp"
+    android:viewportWidth="1"
+    android:viewportHeight="1"
+    android:alpha="0"/>
+</inset>
