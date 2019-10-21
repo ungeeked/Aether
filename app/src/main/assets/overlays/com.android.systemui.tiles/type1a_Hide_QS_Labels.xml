@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<dimen name="qs_tile_text_size">0.0sp</dimen>
-	<item type="dimen" name="qs_tile_text_size">0.0sp</item> // For OOS10
+	<item type="dimen" name="qs_tile_text_size">0.0sp </item>
 </resources>
